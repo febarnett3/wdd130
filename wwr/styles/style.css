@@ -7,6 +7,8 @@
 .home-grid {
   display: grid;
   grid-template-columns: (10, 1fr);
+  grid-column-gap: 20px;
+  align-items: center;
 }
 nav a {
   text-align: center;
@@ -140,15 +142,6 @@ footer .social img {
 .rapids-card {
   margin: 200px 0;
 }
-.card-img {
-  border: 10px solid #7c9885;
-  transition: transform 0.5s;
-  box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-  opacity: 0.6;
-  transform: scale(1.1);
-}
 main section img {
   box-sizing: border-box;
 }
@@ -174,6 +167,16 @@ nav {
   grid-row: 1/2;
   margin-top: 100px;
 }
+.card-img {
+  border: 10px solid #7c9885;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+  height: 100%;
+}
+.card-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
 .card-img,
 .mountains {
   width: 100%;
@@ -184,7 +187,8 @@ nav {
 }
 .camping-card {
   grid-row: 2/3;
-  grid-column: 5/7;
+  grid-column: 6/8;
+  padding-right: 50px;
 }
 .rapids-card {
   grid-row: 2/3;
@@ -197,7 +201,6 @@ nav {
   box-shadow: 5px 5px 10px #6f7364;
 }
 /*mobile*/
-
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
