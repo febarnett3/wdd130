@@ -127,6 +127,8 @@ mark {
   margin-right: 60px;
   margin-top: 40px;
   padding: 10px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 .question_full:hover {
   background-color: #939463;
@@ -137,6 +139,8 @@ h2 {
   margin: 20px;
   padding: 10px;
   width: fit-content;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 .question_paragraph {
@@ -144,9 +148,12 @@ h2 {
   background-color: #7c9885;
   padding: 20px;
   margin: 20px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 .question_paragraph:hover {
   background-color: #5f7566;
+  transform: scale(1.1);
 }
 
 #subheading {
@@ -160,8 +167,11 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 h2:hover {
   background-color: #1b464c;
+  transform: scale(1.1);
 }
