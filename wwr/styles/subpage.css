@@ -80,18 +80,21 @@ footer a:hover {
   text-align: center;
 }
 .home-title {
-  color: white;
+  color: #033f63;
   font-family: "Dangrek";
   font-size: 6em;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 #hero-img {
   width: 100%;
+  height: 70%;
+  object-fit: cover;
 }
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: -100px;
+  margin-bottom: -300px;
 }
 #hero-box {
   grid-column: 1/4;
@@ -109,7 +112,9 @@ footer a:hover {
 }
 mark {
   background-color: white;
+  border-radius: 25px;
   color: #033f63;
+  padding: 5px;
 }
 
 /*content*/
@@ -117,21 +122,46 @@ mark {
   font-family: "Trebuchet MS", sans-serif;
   color: white;
   background-color: #b5b682;
+  border-radius: 25px;
   margin-left: 50px;
   margin-right: 60px;
   margin-top: 40px;
   padding: 10px;
-  border-radius: 25px;
+}
+.question_full:hover {
+  background-color: #939463;
 }
 h2 {
-  border-radius: 25px;
+  border-radius: 50px;
   background-color: #28666e;
-  padding: 20px;
+  margin: 20px;
+  padding: 10px;
   width: fit-content;
 }
-p {
+
+.question_paragraph {
   border-radius: 25px;
   background-color: #7c9885;
   padding: 20px;
+  margin: 20px;
+}
+.question_paragraph:hover {
+  background-color: #5f7566;
+}
+
+#subheading {
+  color: white;
   width: fit-content;
+  border-radius: 100px;
+  background-color: #033f63;
+  font-family: "Dangrek";
+  text-align: center;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2:hover {
+  background-color: #1b464c;
 }
