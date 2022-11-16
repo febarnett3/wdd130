@@ -1,4 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Bungee+Inline&display=swap");
+/*nav*/
+header {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 55px;
+  background-color: #b5179e;
+  display: grid;
+  grid-template-columns: 200px auto;
+  border-radius: 50px;
+}
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 40px;
+}
+nav a:hover {
+  background-color: #f72585;
+  color: white;
+  border-radius: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+.logo {
+  width: 80px;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+#logo_link:hover {
+  background-color: #f72585;
+  border-radius: 50px;
+}
 /*body*/
+body {
+  background-color: #480ca8;
+  color: white;
+}
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,4 +53,34 @@
 #hero-img {
   width: 50%;
   transform: rotate(90deg);
+}
+/*footer*/
+footer {
+  background-color: #b5179e;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 25px;
+  border-radius: 50px;
+  height: 120px;
+}
+footer p {
+  font-size: 1.2em;
+  color: white;
+}
+footer p a:hover {
+  text-decoration: underline;
+  background-color: #f72585;
+  border-radius: 50px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
 }
