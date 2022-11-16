@@ -1,0 +1,10 @@
+/*body*/
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/*header*/
+#hero-img {
+  width: 50%;
+  transform: rotate(90deg);
+}
