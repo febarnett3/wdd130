@@ -20,6 +20,7 @@ header {
   display: grid;
   grid-template-columns: 200px auto;
   border-radius: 50px;
+  box-shadow: 5px 5px 10px #2f075d;
 }
 nav a {
   text-align: center;
@@ -32,6 +33,7 @@ nav a:hover {
   background-color: #f72585;
   color: white;
   border-radius: 50px;
+  box-shadow: 5px 5px 10px #7a106a;
 }
 nav {
   display: flex;
@@ -52,6 +54,7 @@ nav {
 #logo_link:hover {
   background-color: #f72585;
   border-radius: 50px;
+  box-shadow: 5px 5px 10px #7a106a;
 }
 /*header*/
 #hero-img {
@@ -77,6 +80,7 @@ footer {
   font-size: 25px;
   border-radius: 50px;
   height: 120px;
+  box-shadow: 5px 5px 10px #2f075d;
 }
 footer p {
   font-size: 1.2em;
@@ -93,4 +97,5 @@ footer a {
 }
 footer a:hover {
   color: white;
+  box-shadow: 5px 5px 10px #7a106a;
 }
