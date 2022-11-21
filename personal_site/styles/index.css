@@ -139,8 +139,8 @@ body {
 }
 #imgs-grid {
   display: grid;
-  grid-template-columns: 1fr 80px 1fr;
-  grid-template-rows: 1fr 80px 1fr;
+  grid-template-columns: 1fr 100px 1fr;
+  grid-template-rows: 1fr 100px 1fr;
 }
 #jelly-in-jar:hover {
   transform: scale(1.1);
