@@ -60,14 +60,17 @@ body {
 main {
   margin: 50px;
 }
+
 #facts-heading {
   font-size: 70px;
   text-align: center;
   font-family: "Bungee Inline", cursive;
-  margin-top: 20px;
+  margin-top: -25px;
   padding: 0px;
-  margin-bottom: 10px;
+  margin-bottom: -30px;
+  letter-spacing: 5px;
 }
+
 .facts-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
